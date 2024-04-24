@@ -1477,4 +1477,134 @@ body {
 
 .header__logo-link {
   margin-right: 1.5rem;
+}
+
+.footer {
+  background-color: black;
+  padding: 5rem;
+}
+.footer__items {
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  gap: 3rem;
+  margin-bottom: 5rem;
+}
+.footer__item {
+  width: calc((100% - 9rem) / 4);
+}
+.footer__title {
+  margin-bottom: 2rem;
+  font-size: 2rem;
+}
+.footer__list {
+  list-style: none;
+}
+.footer__list-items {
+  color: rgb(171, 170, 170);
+  border-bottom: 1px solid #6b6b6b;
+  padding: 0.8rem;
+}
+.footer__list-items:last-child {
+  border-bottom: none;
+}
+.footer__list-items:last-child::after {
+  display: none;
+}
+.footer__list-items:hover {
+  color: white;
+}
+.footer__list-items-icon {
+  font-size: 1rem;
+  margin-right: 0.5rem;
+  cursor: pointer;
+}
+.footer__list-items-icon:hover {
+  color: #116fd4;
+}
+.footer__button {
+  padding: 1rem;
+  margin: 0.3rem;
+  background-color: gray;
+  color: rgb(223, 218, 218);
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  border: none;
+}
+.footer__button:hover {
+  color: white;
+  background-color: #116fd4;
+}
+.footer__addres {
+  font-style: normal;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+.footer__addres > * {
+  border-bottom: 1px solid #6b6b6b;
+  padding: 1.2rem 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 1.2rem;
+}
+.footer__addres > :first-child {
+  padding-top: 0;
+}
+.footer__mailing-icons {
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 2rem;
+  margin-top: 1.5rem;
+  font-size: 2rem;
+}
+.footer__mailing-link {
+  color: #6b6b6b;
+}
+.footer__mailing-link:hover {
+  color: #116fd4;
+}
+.footer__label-input {
+  padding: 0.5rem;
+  width: 100%;
+  margin-bottom: 1rem;
+}
+.footer__label-textarea {
+  padding: 0.5rem;
+  width: 100%;
+}
+.footer__form-button {
+  text-transform: uppercase;
+  color: white;
+  background-color: #116fd4;
+  border: 1px solid #116fd4;
+  font-size: 1rem;
+  padding: 0.5rem 1rem;
+}
+.footer__logo {
+  padding-top: 3rem;
+  color: white;
+  text-align: center;
+  border-top: 1px solid #6b6b6b;
+}
+
+@media (max-width: 992px) {
+  .footer__item {
+    width: calc((100% - 6rem) / 2);
+  }
+}
+@media (max-width: 768px) {
+  .footer__item {
+    width: 100%;
+  }
 }/*# sourceMappingURL=style.css.map */
